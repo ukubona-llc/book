@@ -602,10 +602,14 @@ FastAPI should resolve immediately.
 
 ⸻
 
-2. High entropy
+2. [High entropy](https://ukubona-llc.github.io/resonancemax/)
 
-. . . . . . . .
- . . . . . . .
+<iframe
+   src="https://ukubona-llc.github.io/resonancemax/"
+   width="75%"
+   height="650"
+>
+</iframe>
 
 Everything is noise.
 
@@ -615,11 +619,13 @@ The correct response may simply be uncertainty.
 
 ⸻
 
-3. Structured ambiguity
+1. Structured ambiguity
 
+```
       ●
 ●           ●
       ●
+```
 
 This is the rootless dom7♭9.
 
@@ -667,14 +673,14 @@ Because routing determines where cognition is spent.
 
 TMVES therefore reads naturally as a metabolic system.
 
-Layer	Role
-Tensor	Entire organism
-Matrix	Sensory reflex
-Vector	Energy allocation
-ResonanceMax	Preserve competing hypotheses
-SoftMax	Deliberation
-ArgMax	Action
-Tensor	Updated organism
+Layer	Role         
+Tensor	Entire organism      
+Matrix	Sensory reflex      
+Vector	Energy allocation     
+ResonanceMax	Preserve competing hypotheses      
+SoftMax	Deliberation     
+ArgMax	Action      
+Tensor	Updated organism     
 
 The cycle is recursive.
 
@@ -709,6 +715,7 @@ Not another dialogue.
 One Pareto frontier.
 
 Quality
+
 ^
 |                        Always-Max
 |                       ●
