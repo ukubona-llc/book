@@ -65,6 +65,7 @@ That would let readers distinguish your ideas from the models’ reactions.
 
 The second thing I’d recommend is introducing a single diagram near the top that everything else references. For example:
 
+```
                  TENSOR
             (Ontology / World)
                    ▲
@@ -77,6 +78,7 @@ Reflex   Jacobian     rank-k       reasoning    action
            cheap geometry
               decides
         computational budget
+```
 
 That diagram becomes the “Rosetta Stone” for the entire essay.
 
