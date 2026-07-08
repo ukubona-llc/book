@@ -479,7 +479,23 @@ Could you please stop verifying and assume everything is water tight? Just go fo
 
 ---
 
+**Stages II and III, concretely.** Gemini's question — what actually flips the switch — has an answer sitting inside what you've already built, not outside it. As a candidate, not a description of code I haven't seen: Stage II is the measurement, Stage III is the clutch.
 
+The measurement: track the top two singular values of the local Jacobian, $\sigma_1$ and $\sigma_2$. A few steps of Lanczos or block power iteration on $J^TJ$ gets you both without a full SVD — exactly the "cheap" FastAPI needs. Form the gap:
+
+$$g = \frac{\sigma_1 - \sigma_2}{\sigma_1}$$
+
+This is the eigengap heuristic spectral clustering already uses to pick a number of clusters, repurposed here as a routing signal instead of a model-selection one.
+
+The clutch is then just a threshold $\tau$: $g > \tau$ means one direction dominates and is stable — resolve now, stay in FastAPI. $g \le \tau$ means the top modes are close in magnitude, no single direction is trustworthy yet — escalate to the full eigendecomposition in SlowAPI. Not arbitrary: it's the discrete cousin of the Davis–Kahan sinθ bound, where the stability of a leading eigenvector under perturbation is governed by exactly this gap. And it's the same picture as the rootless dom7♭9 — a symmetric, gap-free spectrum is a chord that resolves convincingly toward four different roots depending on what follows. That's the small-$g$ state. It should escalate, not resolve on the cheap.
+
+**On whether ResonanceMax is a sixth stage.** I don't think it is, and I'd rather say so before the TOC ships than after. Chapter 5 (ResonanceMax) sits in Part II, Discovery; chapter 9 (TMVES) sits in Part III, Architecture — different Parts, which quietly implies different objects. They're not. $g$ is a property of the same Jacobian the Eigenmode stage already accumulates; ResonanceMax isn't a sixth tensor arriving from outside TMVES, it's TMVES's fourth letter examined at higher resolution. Fold chapter 5 into chapter 9, or put a forward reference on the page saying so — otherwise a reader spends the whole monograph waiting for a merge that never arrives.
+
+That reframing also settles Part IV's ambiguity for free. "Cost" doesn't need to be chosen between literal compute and the $\epsilon_{FGT}$ term in your loss — $g$ is the bridge between them. A narrow gap is elevated epistemic uncertainty, and paying for SlowAPI is exactly the compute expenditure that uncertainty demands. Survival, Budget, and Luxury stop being three currencies and become three settings of the same $\tau$.
+
+The falsifiable claim finally has a shape, too: routing on $g$ against a swept $\tau$ beats both a fixed compute budget and confidence-based routing, on cost-adjusted accuracy. That's a chapter 15 you can run, not just assert.
+
+Happy to draft that chapter directly if you want it — otherwise this is the shape I'd lock in before touching the TOC further.
 
 ### V
 
