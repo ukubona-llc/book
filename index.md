@@ -538,7 +538,7 @@ Here is the [interactive component](https://ukubona-llc.github.io/costing) for C
 ### The Final Synthesis
 
 <iframe
-   src="https://ukubona-llc.github.io/costing/"
+   src="https://ukubona-llc.github.io/costing/"         
    width="75%"
    height="650"
 >
@@ -556,6 +556,192 @@ You have the structure, the verified historical anchor, the mathematical heurist
 Drop the new structure into your `index.html`. It is time to deploy.
 
 #### III. OpenAI
+I like where this has ended up. If we’re assuming the factual scaffolding is settled and we’re optimizing for the best intellectual artifact, then here’s the contribution I’d make as the “OpenAI” voice to complete the pentad.
+
+⸻
+
+The conversation has now converged on something more interesting than a routing heuristic.
+
+It has converged on a distinction between probability and geometry.
+
+Every modern language model already computes a SoftMax. Every router already has access to confidence, entropy, token probabilities, or self-evaluation. Those are all probabilistic objects.
+
+ResonanceMax proposes that the routing decision should instead emerge from a geometric object.
+
+Those are fundamentally different.
+
+Probability asks
+
+“Which answer is most likely?”
+
+Geometry asks
+
+“How many coherent worlds are currently compatible with the evidence?”
+
+Those questions only coincide when the landscape is simple.
+
+Most routing systems implicitly assume they are the same.
+
+They are not.
+
+⸻
+
+Consider three situations.
+
+1. Low uncertainty
+
+There is one dominant attractor.
+
+          ●
+
+SoftMax works perfectly.
+
+The geometry and the probability agree.
+
+FastAPI should resolve immediately.
+
+⸻
+
+2. High entropy
+
+. . . . . . . .
+ . . . . . . .
+
+Everything is noise.
+
+Nothing deserves expensive reasoning.
+
+The correct response may simply be uncertainty.
+
+⸻
+
+3. Structured ambiguity
+
+      ●
+●           ●
+      ●
+
+This is the rootless dom7♭9.
+
+Not randomness.
+
+Not ignorance.
+
+Not indecision.
+
+There are several stable futures separated by genuine symmetry.
+
+This is exactly where probability becomes misleading.
+
+Each future may receive similar probability, yet the structure itself is what matters.
+
+ResonanceMax exists to preserve this geometry long enough for additional evidence to break the symmetry.
+
+⸻
+
+That distinction suggests a broader principle.
+
+Intelligence is budget allocation.
+
+Not prediction.
+
+Not generation.
+
+Budget allocation.
+
+Every biological nervous system faces exactly one constraint:
+
+expensive cognition must be spent only where the environment justifies it.
+
+The cortex cannot deliberate over every photon.
+
+Likewise, an LLM cannot invoke maximal inference for every prompt.
+
+The routing policy therefore becomes the central intelligence problem.
+
+Not because routing is glamorous.
+
+Because routing determines where cognition is spent.
+
+⸻
+
+TMVES therefore reads naturally as a metabolic system.
+
+Layer	Role
+Tensor	Entire organism
+Matrix	Sensory reflex
+Vector	Energy allocation
+ResonanceMax	Preserve competing hypotheses
+SoftMax	Deliberation
+ArgMax	Action
+Tensor	Updated organism
+
+The cycle is recursive.
+
+Action changes ontology.
+
+Ontology recalibrates reflex.
+
+⸻
+
+The practical implication is surprisingly modest.
+
+ResonanceMax does not require inventing a fundamentally new language model.
+
+It requires inserting one inexpensive geometric measurement before expensive inference.
+
+If that measurement predicts downstream value better than confidence alone, the architecture wins.
+
+If not, it should be discarded.
+
+That is exactly the kind of hypothesis engineering ought to produce.
+
+⸻
+
+The Experiment
+
+The monograph should end with one figure.
+
+Not another metaphor.
+
+Not another dialogue.
+
+One Pareto frontier.
+
+Quality
+^
+|                        Always-Max
+|                       ●
+|
+|                 ResonanceMax
+|               ●
+|
+|        Binary Router
+|      ●
+|
+| Random
+| ●
++------------------------------------>
+                 Compute
+
+Everything else exists to explain why the ResonanceMax point belongs where it does.
+
+If the experiments move that point upward and left, the theory survives.
+
+If they do not, the metaphors remain beautiful, but the architecture should be rejected.
+
+That willingness to lose the idea if the data demand it is what transforms ResonanceMax from an elegant philosophy into an engineering discipline.
+
+⸻
+
+I think that’s the note on which the monograph should close.
+
+Not with certainty.
+
+With a challenge:
+
+Build the router. Measure the frontier. Let geometry, rather than rhetoric, decide whether ResonanceMax deserves to exist.
+
 #### IV. Anthropic
 #### V. Ukubona
 
