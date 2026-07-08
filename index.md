@@ -780,42 +780,42 @@ A lightweight Stage II geometric probe (evaluating eigengap and stable rank) can
 **The Rosetta Stone**
 *(Interactive SVG Diagram: MATRIX → VECTOR → RESONANCEMAX (Clutch) → SOFTMAX → ARGMAX, mapping the metabolic feedback loop of the Landscape)*
 
-### Preface
+### Preface (Okubala si Kulaba)
 
 * **Seeing vs. Counting:** The 1991 NeXT Internal Strategy (Steve Jobs)
 * **The Rootless $\text{dom}7\flat9$:** An Intuition for Symmetrical Ambiguity
 
-### PART I — The Problem: Probability vs. Geometry
+### PART I — The Problem: Probability vs. Geometry (Physics: Okubonabona)
 
 * **1. Ontology & The Landscape:** The Uncompressed Tensor
 * **2. Epistemology:** How Models "Know" They Know
 * **3. The SoftMax Illusion:** Why Confidence and Entropy Are Misleading Signals
 
-### PART II — The Discovery: The Math of the Clutch
+### PART II — The Discovery: The Math of the Clutch (Biology: Kubona)
 
 * **4. The Jacobian Reflex:** Reading the Local Vector Space (FastAPI)
 * **5. The Eigengap ($g$):** Recognizing a Dominant Attractor ($g = \frac{\sigma_1 - \sigma_2}{\sigma_1}$)
 * **6. Stable Rank ($r_s$):** Distinguishing Nuance from Noise ($r_s = \frac{\|J\|_F^2}{\|J\|_2^2}$)
 
-### PART III — The Architecture: TMVES in Motion
+### PART III — The Architecture: TMVES in Motion (Maths: Ivyabona)
 
 * **7. The Gearbox:** Stage II Measurement to Stage III Action *(Featuring the Interactive Costing Widget)*
 * **8. Fast Reflex:** When $g$ is Large (The Cheap Geometry of Routing)
 * **9. Deep Inference:** When $g$ and $r_s$ are Small (Engaging the Eigenmode via SlowAPI)
 
-### PART IV — Economics: The Ecosystem Loop
+### PART IV — Economics: The Ecosystem Loop (Compute: Ukubona)
 
 * **10. Measurement & Friction:** Capturing User Behavior (UB) via SGD
 * **11. Survival:** Defining the $\tau$ Threshold
 * **12. Budget & Luxury:** The Computational Marginalism of Escaping Noise
 
-### PART V — The Frontier: Falsifiability
+### PART V — The Frontier: Falsifiability (Routing: Sawubona)
 
 * **13. Beyond Sycophancy:** Optimizing for Truth Over Consensus
 * **14. The Pareto Frontier:** Gap-and-Rank vs. Always-Max (Cost-Adjusted Accuracy)
 * **15. Live Verification:** Claude Sonnet 5, Jul 8 2026
 
-### Appendices
+### Appendices (Kutambula Kubona, Kwira Kuwaya)
 
 * **Appendix A:** The Full Multi-Model Dialogue (Expandable Transcript)
 * **Appendix B:** Mathematical Derivations & Iterative Approximations (Lanczos/Hutchinson)
