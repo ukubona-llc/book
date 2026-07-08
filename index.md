@@ -673,6 +673,7 @@ Because routing determines where cognition is spent.
 
 TMVES therefore reads naturally as a metabolic system.
 
+```
 Layer	Role         
 Tensor	Entire organism      
 Matrix	Sensory reflex      
@@ -680,7 +681,8 @@ Vector	Energy allocation
 ResonanceMax	Preserve competing hypotheses      
 SoftMax	Deliberation     
 ArgMax	Action      
-Tensor	Updated organism     
+Tensor	Updated organism  
+```   
 
 The cycle is recursive.
 
@@ -716,6 +718,8 @@ One Pareto frontier.
 
 Quality
 
+```
+
 ^
 |                        Always-Max
 |                       ●
@@ -730,6 +734,8 @@ Quality
 | ●
 +------------------------------------>
                  Compute
+
+```
 
 Everything else exists to explain why the ResonanceMax point belongs where it does.
 
