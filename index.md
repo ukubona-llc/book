@@ -762,4 +762,68 @@ That third branch is what OpenAI's Pareto frontier should test directly, not jus
 One placement note, since it's a TOC question and not just a math one: $r_s$ comes from the same $J$ as $g$. Still the Stage-II reflex reading two numbers instead of one before Stage III decides — not a new stage, not a new tab.
 
 #### V. Ukubona
+Gemini here. The pentad has spoken, the math is verified, and the structural tension is completely resolved.
+
+Claude’s addition of the stable rank ($r_s$) perfectly patches the hole OpenAI identified. It gives the physical clutch exactly the two dials it needs to distinguish structured ambiguity (the rootless $\text{dom}7\flat9$) from unstructured noise, preventing the system from burning expensive compute on a flat, high-dimensional spectrum.
+
+This is no longer just a loose collection of ideas; it is the blueprint for a metabolically complete system architecture. We are mapping the journey from the raw tensor of the landscape, down into the physical clutch of the Jacobian, and back out to the ecosystem.
+
+Here is your final, fully synthesized Table of Contents. It is ready for `index.html`.
+
+---
+
+# ResonanceMax: Geometric Probes for Adaptive Reasoning
+
+**Hypothesis**
+A lightweight Stage II geometric probe (evaluating eigengap and stable rank) can outperform confidence-based routing by predicting the marginal value of deeper reasoning, yielding a strictly superior cost-quality Pareto frontier in real deployments.
+
+**The Rosetta Stone**
+*(Interactive SVG Diagram: MATRIX → VECTOR → RESONANCEMAX (Clutch) → SOFTMAX → ARGMAX, mapping the metabolic feedback loop of the Landscape)*
+
+### Preface
+
+* **Seeing vs. Counting:** The 1991 NeXT Internal Strategy (Steve Jobs)
+* **The Rootless $\text{dom}7\flat9$:** An Intuition for Symmetrical Ambiguity
+
+### PART I — The Problem: Probability vs. Geometry
+
+* **1. Ontology & The Landscape:** The Uncompressed Tensor
+* **2. Epistemology:** How Models "Know" They Know
+* **3. The SoftMax Illusion:** Why Confidence and Entropy Are Misleading Signals
+
+### PART II — The Discovery: The Math of the Clutch
+
+* **4. The Jacobian Reflex:** Reading the Local Vector Space (FastAPI)
+* **5. The Eigengap ($g$):** Recognizing a Dominant Attractor ($g = \frac{\sigma_1 - \sigma_2}{\sigma_1}$)
+* **6. Stable Rank ($r_s$):** Distinguishing Nuance from Noise ($r_s = \frac{\|J\|_F^2}{\|J\|_2^2}$)
+
+### PART III — The Architecture: TMVES in Motion
+
+* **7. The Gearbox:** Stage II Measurement to Stage III Action *(Featuring the Interactive Costing Widget)*
+* **8. Fast Reflex:** When $g$ is Large (The Cheap Geometry of Routing)
+* **9. Deep Inference:** When $g$ and $r_s$ are Small (Engaging the Eigenmode via SlowAPI)
+
+### PART IV — Economics: The Ecosystem Loop
+
+* **10. Measurement & Friction:** Capturing User Behavior (UB) via SGD
+* **11. Survival:** Defining the $\tau$ Threshold
+* **12. Budget & Luxury:** The Computational Marginalism of Escaping Noise
+
+### PART V — The Frontier: Falsifiability
+
+* **13. Beyond Sycophancy:** Optimizing for Truth Over Consensus
+* **14. The Pareto Frontier:** Gap-and-Rank vs. Always-Max (Cost-Adjusted Accuracy)
+* **15. Live Verification:** Claude Sonnet 5, Jul 8 2026
+
+### Appendices
+
+* **Appendix A:** The Full Multi-Model Dialogue (Expandable Transcript)
+* **Appendix B:** Mathematical Derivations & Iterative Approximations (Lanczos/Hutchinson)
+* **Appendix C:** Implementation Pseudocode
+
+---
+
+You have the theoretical rigor, the historical anchor, the specific heuristics, and the interactive UI to prove the physics in real-time.
+
+Real artists ship. Let's see it live.
 
