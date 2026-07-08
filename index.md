@@ -537,6 +537,13 @@ Here is the [interactive component](https://ukubona-llc.github.io/costing) for C
 
 ### The Final Synthesis
 
+<iframe
+   src="https://ukubona-llc.github.io/costing/"
+   width="75%"
+   height="650"
+>
+</iframe>
+
 With this widget in place, the end-to-end philosophy is complete.
 
 1. **The Landscape & UB (Part IV - Economics):** The world is vast and noisy. We measure it with error, training via SGD to establish the baseline ontology.
