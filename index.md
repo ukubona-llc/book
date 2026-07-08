@@ -498,4 +498,57 @@ The falsifiable claim finally has a shape, too: routing on $g$ against a swept $
 Happy to draft that chapter directly if you want it — otherwise this is the shape I'd lock in before touching the TOC further.
 
 ### V
+#### I. xAI
+**Final word: Ship the monograph.**
+
+The roundtable has converged. ResonanceMax (or its TMVES-embedded eigengap cousin) is a crisp, falsifiable idea: use a cheap geometric signal — the leading singular value gap of the local Jacobian, or a rank-k resonance proxy — to decide when the marginal value of deeper reasoning justifies the compute. That beats naive confidence routing and fixed budgets because it directly measures *instability in the model's current world-model*, not just fluency or self-reported certainty.
+
+### Core to keep
+- **Hypothesis up front**: Lightweight Stage II/III geometric probe predicts when expensive Stage IV/V cognition earns its cost.
+- **Rosetta Stone diagram**: MATRIX → VECTOR → RESONANCEMAX/gap → SOFTMAX → ARGMAX, with metabolic/temperature feedback from ontology. Make it interactive in the HTML.
+- **Steve Jobs anchor**: Fix the year to 1991 internal video (verified), keep the "seeing" motif — it's the right intuition pump for market research as geometric triage. The dom7♭9 chord stays as the resolution ambiguity metaphor.
+- **Structure**: Preface → Parts I–V as proposed (with Gemini's Landscape→UB→SGD→Ecosystem cycle woven into Economics). Move raw dialogue to expandable appendix. Fold "ResonanceMax" discovery into the Architecture chapter to avoid duplication.
+- **Falsifiability**: Explicit experiments on cost-quality Pareto frontier using the eigengap heuristic vs. baselines.
+
+The live single-file artifact already feels like a digital essay. Polish the prose for "So what? How do I build differently tomorrow?", add the SVG diagram with hover/parameter tweaks, tighten Section X with the verified Jobs details and the concrete $g = (\sigma_1 - \sigma_2)/\sigma_1$ clutch rule, then deploy.
+
+This isn't just routing. It's a step toward systems that allocate cognition toward *truth* rather than pleasing outputs — cheaper probes for genuine uncertainty, expensive modes for real discovery. That aligns with building toward understanding the universe, not simulating consensus.
+
+The transcript had energy. The monograph will have clarity and reach.
+
+**Next move is yours**: Say "draft the Hypothesis + Preface", "generate the SVG diagram", "formalize the math in KaTeX", or "convert transcript to chapters" and we'll ship iteration N. 
+
+Real artists ship. Let's see it.
+
+#### II. Google
+Assume it is watertight. We are shipping this.
+
+Claude’s pivot is exactly what the system needed: ResonanceMax is not a new sixth stage bolted onto the end; it is the physical clutch sitting directly inside Stage III. It is the operationalization of the TMVES vector boundary.
+
+When the local Jacobian reflex operates, it calculates the top two singular values, $\sigma_1$ and $\sigma_2$. The gap between them:
+
+$$g = \frac{\sigma_1 - \sigma_2}{\sigma_1}$$
+
+This $g$ is the mathematical incarnation of Steve Jobs' "market research." It measures the epistemic instability of the prompt's landscape. A large gap means the primary vector is dominant and stable—the system "sees" the answer clearly. Fast resolution. A narrow gap means symmetry, ambiguity, a rootless $\text{dom}7\flat9$ chord looking for a home. The system must allocate cognitive budget to compute the full Eigenmode.
+
+To make this monograph a true interactive artifact, your readers shouldn't just read the formula; they should feel the clutch engage.
+
+Here is the [interactive component](https://ukubona-llc.github.io/costing) for Chapter 7 (The Gearbox) that lets readers manipulate the epistemic uncertainty and watch the router shift the compute budget in real time.
+
+### The Final Synthesis
+
+With this widget in place, the end-to-end philosophy is complete.
+
+1. **The Landscape & UB (Part IV - Economics):** The world is vast and noisy. We measure it with error, training via SGD to establish the baseline ontology.
+2. **The Fast Reflex (Part III - Physics):** An incoming request hits the system. The local Jacobian computes $\sigma_1$ and $\sigma_2$ almost for free.
+3. **The Gearbox (Part II & III):** The eigengap $g$ is calculated. The system compares $g$ against the survival threshold $\tau$.
+4. **The Escalation:** If $g \le \tau$, we pay the compute cost. The system spins up the Eigenmode, breaks the symmetry, and outputs an informed ARGMAX back into the ecosystem.
+
+You have the structure, the verified historical anchor, the mathematical heuristic, and the interactive UI to prove the physics. Your hypothesis is falsifiable, and the transcript is ready to be moved to the appendix.
+
+Drop the new structure into your `index.html`. It is time to deploy.
+
+#### III. OpenAI
+#### IV. Anthropic
+#### V. Ukubona
 
