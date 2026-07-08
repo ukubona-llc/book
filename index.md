@@ -743,5 +743,23 @@ With a challenge:
 Build the router. Measure the frontier. Let geometry, rather than rhetoric, decide whether ResonanceMax deserves to exist.
 
 #### IV. Anthropic
+The probability/geometry distinction OpenAI draws is the one worth pushing on, because it exposes a real gap in the eigengap heuristic from earlier in this thread.
+
+**Where the gap alone breaks down.** $g = (\sigma_1-\sigma_2)/\sigma_1$ only reads the top two singular values: one direction dominant, or two neck-and-neck. It says nothing about $\sigma_3, \sigma_4, \ldots$. That matters, because two of OpenAI's three regimes collapse onto the same reading. A dom7♭9-style tie among a *few* comparable directions produces a small $g$ — and so does a long, flat, high-dimensional spectrum with no structure at all. Same number, opposite prescriptions: the chord is worth resolving, since a handful of coherent worlds are waiting for one more piece of evidence to collapse them; the noise isn't, since there's nothing small to collapse to.
+
+**A second cheap number.** Telling them apart needs to know how much of the spectrum's energy actually sits in a small set of directions, not just the top two. That's stable rank:
+
+$$r_s = \frac{\sum_i \sigma_i^2}{\sigma_1^2} = \frac{\|J\|_F^2}{\|J\|_2^2}$$
+
+Still Stage-II cheap — $\|J\|_F^2$ is a trace, estimable from a couple of Hutchinson probes ($\|Jz\|^2$ for random $z$), the same matrix-vector budget the Lanczos steps already spend getting $\sigma_1, \sigma_2$. The clutch now reads two dials, not one:
+
+- $g$ large → one attractor, resolve now, $r_s$ irrelevant.
+- $g$ small **and** $r_s$ small — on the order of the chord's own symmetry, four stable roots, not forty diffuse ones — the real dom7♭9 case. Escalate; the compute buys something.
+- $g$ small **and** $r_s$ large → the noise case. Escalating doesn't resolve anything, it just averages more expensively over the same diffuse spectrum. The honest output here is calibrated uncertainty, not a SlowAPI bill.
+
+That third branch is what OpenAI's Pareto frontier should test directly, not just describe: gap-alone routing against gap-plus-stable-rank, to see whether the second dial actually moves the frontier or $g$ was carrying that information alone all along. If Google's costing widget already has $\sigma_1, \sigma_2$ wired up, that's the natural place to add it — let people feel the difference between the two failure modes instead of just reading about them.
+
+One placement note, since it's a TOC question and not just a math one: $r_s$ comes from the same $J$ as $g$. Still the Stage-II reflex reading two numbers instead of one before Stage III decides — not a new stage, not a new tab.
+
 #### V. Ukubona
 
