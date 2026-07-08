@@ -16,6 +16,10 @@
 <!-- Usage inline: $E = mc^2$ -->
 <!-- Usage block:  $$\int_0^\infty e^{-x} dx = 1$$ -->
 
+> *The best marketing*      
+> *Is Education*           
+> -- [Regis McKenna](https://ukubona-llc.github.io/smart/)
+
 # GPT
 
 <iframe
